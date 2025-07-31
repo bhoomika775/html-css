@@ -1,0 +1,60 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb Clone</title>
+  <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+  <header>
+    <div class="logo">airbnb</div>
+    <nav>
+      <ul>
+        <li><a href="#">Places to stay</a></li>
+        <li><a href="#">Experiences</a></li>
+        <li><a href="#">Online Experiences</a></li>
+      </ul>
+    </nav>
+    <button class="login-btn">Login</button>
+  </header>
+
+  <section class="hero">
+    <h1>Find your next stay</h1>
+    <p>Search unique places to stay and experiences around the world.</p>
+    <div class="search-bar">
+      <input type="text" placeholder="Where are you going?">
+      <input type="date">
+      <input type="number" placeholder="Guests" min="1">
+      <button onclick="search()">Search</button>
+    </div>
+  </section>
+
+  <section class="listings">
+    <h2>Featured Listings</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Listing 1">
+        <h3>Cozy Apartment</h3>
+        <p>$120/night · 4.5⭐</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Listing 2">
+        <h3>Beach House</h3>
+        <p>$200/night · 4.8⭐</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Listing 3">
+        <h3>Mountain Cabin</h3>
+        <p>$150/night · 4.7⭐</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Airbnb Clone · Built with HTML, CSS & JS</p>
+  </footer>
+
+  <script src="script2.js"></script>
+</body>
+</html>
